@@ -1,0 +1,285 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "acm:ListCertificates",
+                "apigateway:GET"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "apigateway"
+        },
+        {
+            "Action": [
+                "cloudformation:CreateUploadBucket",
+                "cloudformation:DescribeStackEvents",
+                "cloudformation:DescribeStacks",
+                "cloudformation:GetStackPolicy",
+                "cloudformation:GetTemplate",
+                "cloudformation:GetTemplateSummary",
+                "cloudformation:List*",
+                "cloudformation:ValidateTemplate",
+                "cloudformation:DescribeStackResources"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "cloudformation"
+        },
+        {
+            "Action": [
+                "cloudfront:List*",
+                "cloudfront:GetDistribution",
+                "cloudfront:UpdateDistribution",
+                "cloudfront:DescribeFunction",
+                "cloudfront:GetCachePolicy",
+                "cloudfront:GetCachePolicyConfig",
+                "cloudfront:GetDistributionConfig",
+                "cloudfront:GetFunction",
+                "cloudfront:CopyDistribution",
+                "cloudfront:CreateFunction",
+                "cloudfront:DeleteFunction",
+                "cloudfront:DeleteDistribution",
+                "cloudfront:DeleteCachePolicy",
+                "cloudfront:DeletePublicKey"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "cloudfront"
+        },
+        {
+            "Action": [
+                "cloudsearch:DescribeDomains"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "cloudsearch"
+        },
+        {
+            "Action": [
+                "cloudwatch:*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "cloudwatch"
+        },
+        {
+            "Action": [
+                "ec2:AcceptVpcPeeringConnection",
+                "ec2:AssociateRouteTable",
+                "ec2:CreateRoute",
+                "ec2:CreateRouteTable",
+                "ec2:CreateVpcPeeringConnection",
+                "ec2:DeleteRoute",
+                "ec2:DeleteRouteTable",
+                "ec2:DeleteVpcPeeringConnection",
+                "ec2:Describe*",
+                "ec2:ModifyVpcPeeringConnectionOptions",
+                "ec2:RejectVpcPeeringConnection",
+                "ec2:ReplaceRoute",
+                "ec2:ReplaceRouteTableAssociation",
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "ec2-instance-connect:SendSSHPublicKey"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "ec2"
+        },
+        {
+            "Action": [
+                "elasticloadbalancing:DescribeInstanceHealth",
+                "elasticloadbalancing:DescribeListeners",
+                "elasticloadbalancing:DescribeLoadBalancers",
+                "elasticloadbalancing:DescribeTargetGroups",
+                "elasticloadbalancing:DescribeTargetHealth"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "elasticloadbalancing"
+        },
+        {
+            "Action": [
+                "lambda:List*",
+                "lambda:GetAccountSettings",
+                "lambda:GetFunction",
+                "lambda:InvokeFunction",
+                "lambda:GetFunctionEventInvokeConfig",
+                "lambda:GetPolicy",
+                "lambda:GetRuntimeManagementConfig"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "lambda"
+        },
+        {
+            "Action": [
+                "route53:Get*",
+                "route53:List*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "route53"
+        },
+        {
+            "Action": [
+                "route53domains:List*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "route53domains"
+        },
+        {
+            "Action": [
+                "route53resolver:Get*",
+                "route53resolver:List*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "route53resolver"
+        },
+        {
+            "Action": [
+                "ssm:DescribeInstanceInformation",
+                "ssm:GetCommandInvocation",
+                "ssm:GetConnectionStatus",
+                "ssm:ListDocuments",
+                "ssm:SendCommand",
+                "ssm:StartSession",
+                "ssm:TerminateSession"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "ssm"
+        },
+        {
+            "Action": [
+                "support:*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "support"
+        },
+        {
+            "Action": [
+                "tag:GetResources",
+                "tag:GetTagValues"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "tag"
+        },
+        {
+            "Action": [
+                "waf-regional:List*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "wafregional"
+        },
+        {
+            "Action": [
+                "waf:List*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "waf"
+        },
+        {
+            "Action": [
+                "wafv2:List*"
+            ],
+            "Effect": "Allow",
+            "Resource": "*",
+            "Sid": "wafv2"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:DescribeParameters",
+                "ssm:GetParameter",
+                "ssm:PutParameter",
+                "secretsmanager:ListSecrets",
+                "secretsmanager:GetSecretValue",
+                "secretsmanager:CreateSecret",
+                "secretsmanager:PutSecretValue",
+                "secretsmanager:UpdateSecret",
+                "secretsmanager:DescribeSecret"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:GetParameter"
+            ],
+            "Resource": [
+                "arn:aws:ssm:eu-central-1:892065233093:parameter/*/exa_monitoring_user",
+                "arn:aws:ssm:eu-central-1:929525451398:parameter/*/exa_monitoring_user",
+                "arn:aws:ssm:eu-central-1:946287329088:parameter/*/exa_monitoring_user",
+                "arn:aws:ssm:eu-central-1:978283744562:parameter/*/exa_monitoring_user",
+                "arn:aws:ssm:eu-central-1:978283744562:parameter/prod-db-credentials"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:ListAllMyBuckets",
+                "s3:GetBucketTagging"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "sns:List*",
+                "sns:GetTopicAttributes"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "schemas:DescribeRegistry",
+                "schemas:DescribeSchema",
+                "schemas:GetDiscoveredSchema",
+                "schemas:ListSchemaVersions"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "loggroups",
+            "Effect": "Allow",
+            "Action": [
+                "logs:*"
+            ],
+            "Resource": [
+                "*"
+            ]
+        },
+        {
+            "Sid": "eventslist",
+            "Effect": "Allow",
+            "Resource": [
+                "*"
+            ],
+            "Action": [
+                "events:List*",
+                "scheduler:List*",
+                "scheduler:Get*",
+                "events:DescribeEventBus",
+                "events:DescribeRule"
+            ]
+        }
+    ]
+}

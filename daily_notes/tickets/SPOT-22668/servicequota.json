@@ -1,0 +1,20 @@
+{
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Action": [
+                "servicequotas:List*",
+                "servicequotas:GetAWSDefaultServiceQuota",
+                "servicequotas:GetServiceQuota",
+                "support:*",
+                "servicequotas:RequestServiceQuotaIncrease",
+                "cloudwatch:GetMetricData",
+                "organizations:DescribeOrganization"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
