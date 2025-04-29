@@ -1,0 +1,35 @@
+### Weekly Notes: March 31 - April 4, 2025
+
+#### Key Meetings & Calls
+- **Daily Calls**: Held on March 31, April 2, and SaaS daily call on April 3 with [[Mihai]] and others.
+- **On Calls with [[Leila]]**: Assisted on various tasks:
+  - SaaS API services (March 31, April 1)
+  - Terraform changes & setting up unit tests (April 1)
+- **SLI Meeting with [[Avantika]]**: April 2
+- **Security Champion Meeting**: April 2
+- **DLHC Meeting**: April 4
+
+#### Pull Requests (PR) & Reviews
+- **Created PR**:
+  - Log collection via S3 bucket (April 1)
+- **Reviewed PRs**:
+  - [[Avantika]]: Snapshot deletion (April 1)
+  - [[Leila]]: PR review (April 2)
+  - [[Haibo]]: PR review (April 2)
+
+#### Tasks & Work Updates
+- **Tickets Worked**:
+  - SPOT ticket (SPOT-22188) (March 31)
+  - DHL ticket re-activated (CD-7283) (April 2)
+- **Issues & Fixes**:
+  - Billing alert in `exa-dev-dev` account (April 2)
+  - Fix budget alerts and assign proper names (April 3)
+  - Snapshot issue identified in versions 8.28.4 and 8.29.1 (April 3)
+
+#### SaaS Discussions
+- **SPIKE Ticket for Private Link** (April 3)
+  - Discussed solutions for cost management and importing cost data into SaaS Analytics Database.
+
+---
+
+This captures the highlights of the week including collaboration, ticket progress, and key meetings. Let me know if adjustments are needed!

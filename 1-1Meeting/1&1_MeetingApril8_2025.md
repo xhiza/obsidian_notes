@@ -1,0 +1,98 @@
+---
+id: 1&1_MeetingApril8_2025
+aliases: []
+tags: []
+---
+
+**20250408 1-1 Edis**
+
+Edis
+
+**Done Tickets:**
+
+**Filter**
+
+Sprint = 302 and resolution in (Done, Fixed) and assignee = <assignee>
+
+Do all closed tickets have story points?
+
+Do they have time estimation?
+
+
+| Issue Type | Key        | Summary                                                   | Assignee   | Priority | Status   | Updated          | Resolution | Story Points | Sprint              | Parent                   |
+| ---------- | ---------- | --------------------------------------------------------- | ---------- | -------- | -------- | ---------------- | ---------- | ------------ | ------------------- | ------------------------ |
+| Task       | SPOT-24555 | reactivate and add 500 credits to DHL account             | Shabi      | Normal   | Resolved | 03.04.2025 16:42 | Done       |              | SaaS Sprint 2024-27 | SaaS Maintenance 2025-Q1 |
+| Task       | SPOT-24499 | Update Wooga ssl certificate                              | Edis Shabi | Normal   | Resolved | 02.04.2025 10:01 | Done       |              | SaaS Sprint 2024-27 | SaaS Maintenance 2025-Q1 |
+| Task       | SPOT-24414 | Fix to add the tags                                       | Edis Shabi | Normal   | Resolved | 07.04.2025 11:44 | Done       | 3            | SaaS Sprint 2024-27 | SaaS Maintenance 2025-Q1 |
+| Story      | SPOT-24391 | saas-terraform: don't schedule updates during the weekend | Edis Shabi | Normal   | Resolved | 07.04.2025 11:40 | Done       | 5            | SaaS Sprint 2024-27 | Automated SaaS Updates   |
+| Task       | SPOT-24299 | Populate internal/partners/customers lists in SSM         | Edis Shabi | Normal   | Resolved | 01.04.2025 12:03 | Done       | 2            | SaaS Sprint 2024-27 | Automated SaaS Updates   |
+
+**Carry-over Tickets:**
+
+**Filter**
+
+Sprint = 302 and Sprint = 315 and status not in (Closed, Resolved) and assignee = <assignee>
+
+| Issue Type | Key        | Summary                                       | Assignee   | Priority | Status           | Updated          | Resolution | Story Points | Sprint                                                        | Parent |
+| ---------- | ---------- | --------------------------------------------- | ---------- | -------- | ---------------- | ---------------- | ---------- | ------------ | ------------------------------------------------------------- | ------ |
+| Story      | SPOT-22188 | Log collection in saas should collect from s3 | Edis Shabi | Normal   | Ready for Review | 08.04.2025 12:02 | Unresolved | 5            | SaaS Sprint 2024-27, SaaS Sprint 2024-28, SaaS Sprint 2024-21 |
+
+**Roadmap**
+
+**Note**
+
+What was the focus?
+
+What was achieved?
+
+Focus: Automated Updates, S3 Log Collection and SaaS Maintenance 2025-Q1
+
+**Collaboration**
+
+**Note**
+
+Did you work with someone?
+
+Did you review PRs?
+
+- [ ] Did you present something in the review meeting?
+
+Edis reviewed PRs:
+
+- Leila PR for Scheduled actions cleanup
+  - they also had a call to discuss the PR and unit tests
+- Haibos PR for Automated Updates notifications
+- Avantika's PR for EBS Volume Snapshot Deletion
+
+Edis presented the S3 Log Collection in the review meeting
+
+Edis also discussed Aleksandr Lipatev about S3 Log Collection
+
+Edis did the SLI Analysis
+
+Edis, Avantika, and Mihai investigated the Semikron and Formue cron jobs for snapshots not executing
+
+- we deployed a possible workaround
+
+Edis, Avantika, Mihai, and Andy refined the SLI Monitoring & recovery improvements
+
+**Observations**
+
+**Note**
+
+What went well?
+
+What could be better?
+
+What were the challenges?
+
+Edis estimated the S3 Log Collection to be completed during the sprint:
+
+- PR reviews came late (people sick/vacation)
+
+Robert Rex asked Edis to review [SaaS Disaster Recovery Plan](https://exasol.atlassian.net/wiki/spaces/SAAS/pages/10518716/SaaS+Disaster+Recovery+Plan)
+
+**Conclusions**
+
+**Note**
+

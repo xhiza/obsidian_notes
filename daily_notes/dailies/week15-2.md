@@ -1,0 +1,30 @@
+## Weekly Brief Notes - Week 15 (2025-04-07 to 2025-04-11)
+
+### Key Highlights:
+1. **Database for Thomas Bleisfleisch**: Continued work on the database for Thomas Bleisfleisch ensuring it matches the version used in the Adidas POC.
+2. **AWS Billing Alert Fix**: Worked on correcting the titles of billing alerts for every AWS account.
+3. **Resource Allocation Issue with Adena**:
+   - Adena encountered insufficient capacity issues with the r5d.8xlarge instance type. The team worked with AWS Support and managed to secure needed instances through persistence.
+   - A strategy call was held with Mihai, Andrew, Juergen, and me to explore quick solutions for maintaining Adena’s database functionality during resource constraints.
+4. **SaaS Retrospective**: Participated in the SaaS retrospective meeting to analyze ongoing progress and challenges.
+5. **General Work Follow-up**: Addressed issues flagged during retrospective sessions.
+
+---
+
+### Notes Archive:
+
+#### 2025-04-07.md
+
+- [>] Working on creating database for [[Thomas Bleistfleisch]] with same version as Adidas POC.
+- SaaS Retrospective meeting.
+- [>] Fix the title for each billing alert of each aws account.
+- Adena has hit insufficient capacity with instance type r5d.8xlarge; had a call with AWS Support and kept trying until we got instances needed.
+- Me [[Mihai]], [[Andrew]], and [[Juergen]] had a call about Adena and potential solutions for their database.
+
+#### 2025-04-10.md
+_(No content provided; possibly blank or absent notes.)_
+
+#### 2025-04-11.md
+_(Duplicated entry from April 11th notes.)_
+
+- SaaS retrospective flagged some errors worth follow-ups later deploy notes.

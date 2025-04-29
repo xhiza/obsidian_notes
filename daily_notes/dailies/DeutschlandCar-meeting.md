@@ -1,0 +1,88 @@
+---
+id: DeutschlandCard-meeting
+aliases: []
+tags:
+  - DeutschlandCard
+---
+
+### **Step-by-Step Guide: AWS Direct Connect Setup**
+
+#### **1. Plan Your Setup**
+   - **Determine Your Needs**: Decide what you need the Direct Connect connection for (e.g., connecting AWS to Oracle Cloud (OCI) through FastConnect).
+   - **Location**: Identify the AWS Direct Connect **location** (data center) that is geographically closest to your hardware or OCI region.
+   - **Connection Speed**: Choose a connection capacity (e.g., 1 Gbps or 10 Gbps).
+   - **Existing vs New Setup**:
+     - If you already have an existing Direct Connect, you can reuse it, as mentioned.
+     - If you're starting fresh, you'll need to provision a new Direct Connect.
+
+---
+
+#### **2. Request AWS Direct Connect**
+   - Log in to your **AWS Management Console**.
+   - Go to the **Direct Connect dashboard**.
+   - Select "Create a New Connection" and complete the following details:
+     - **Location**: Choose an AWS Direct Connect location.
+     - **Port speed**: Specify your desired capacity (e.g., 1 Gbps or 10 Gbps).
+     - **Connection Type**: Options include a dedicated network connection (physical) or a hosted connection (via an AWS Direct Connect Partner).
+   - After submitting the request, AWS Direct Connect will allocate a port or virtual interface (VIF).
+
+---
+
+#### **3. Order a Physical Cross-Connect**
+   - Work with either:
+     - **AWS Direct Connect Partners** or your colocation provider to set up the physical cross-connect to the AWS Direct Connect router at the selected location/data center.
+   - AWS provides a Letter of Authority (LOA)–Cable Diagram after approval, which is required to complete the setup of the connection at the colocation facility.
+
+---
+
+#### **4. Configure the Virtual Interface (VIF)**
+   - After the physical cross-connect is established, log in to the **AWS Management Console** to create a **Virtual Interface (VIF)**.
+   - There are two types of VIFs to choose from:
+     1. **Private VIF**: For securely accessing private resources like VPCs.
+     2. **Public VIF**: For accessing AWS public services (e.g., S3, DynamoDB).
+   - For OCI integration, you’ll likely configure a **Private VIF** to connect your VPC to the Oracle Cloud.
+
+---
+
+#### **5. Set Up AWS Side: Configure VPC Settings**
+   - Link the Direct Connect to your AWS **Virtual Private Gateway (VGW)** or **Transit Gateway**:
+     - Create a **Virtual Private Gateway** in AWS if you don’t already have one.
+     - Attach this gateway to the VPC hosting your EXASOL SaaS service.
+   - This facilitates the connection between the Direct Connect VIF and your resources.
+
+---
+
+#### **6. Set Up Oracle Cloud Side: Configure OCI FastConnect**
+   - Work within your Oracle Cloud Infrastructure (OCI) console:
+     - Use OCI **FastConnect** to establish a connection between your Oracle networks and AWS Direct Connect.
+     - Define routing policies between your Oracle Virtual Cloud Network (VCN) and AWS Virtual Private Gateway.
+   - Provision a **FastConnect Virtual Circuit**, ensuring it aligns with the AWS Direct Connect setup.
+
+---
+
+#### **7. Configure BGP Peering**
+   - Direct Connect uses **Border Gateway Protocol (BGP)** for routing. Configure BGP both on:
+     - AWS side: Specify your ASN (Autonomous System Number) and other BGP settings.
+     - OCI side: Set up BGP peering with the corresponding route information.
+   - Exchange routes between your AWS VPC and OCI VCN.
+
+---
+
+#### **8. Test Connectivity**
+   - Verify that traffic flows between your AWS VPC hosting EXASOL and your Oracle Cloud account through the VPN tunnel and Direct Connect.
+   - Test for latency, throughput, and security expectations.
+
+---
+
+#### **9. Monitor and Adjust**
+   - Use AWS tools such as **CloudWatch** for monitoring the connection.
+   - If needed, adjust the speed of Direct Connect monthly (1 Gbps to higher speeds).
+   - Ensure no other database access occurs outside of the VPN tunnel, as EXASOL would handle this restriction.
+
+---
+
+### Costs and Customer Responsibility
+- The customer is responsible for all AWS Direct Connect and OCI FastConnect costs. This includes colocation charges, connection speed adjustments, and any outbound traffic costs.
+
+---
+
