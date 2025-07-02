@@ -1,47 +1,59 @@
----
-id: week
-aliases: []
-tags: []
----
-
-Here’s your weekly note summarizing the content from the provided daily notes:
+Here’s a compiled **Weekly Notes** based on the content provided from April 25 to April 30:
 
 ---
 
-**Weekly Note (March 24-28, 2025)**  
-**Dates Covered:** March 25, 2025 - March 28, 2025  
-**Tags:** #weekly-notes  
+### **Weekly Notes: April 24 – April 30, 2025**
 
-### Summary of Tasks and Highlights:  
-
-#### March 25, 2025  
-- Continuing work on the ticket: `SPOT-24391`.  
-- Raised questions regarding the availability monitor issue for the **Adidas POC** cluster, discussed during the previous SaaS retrospective meeting. Investigating sync jobs further.  
-
-#### March 26, 2025  
-- Reviewed the progress of `SPOT-24391`. Found edge cases related to cluster monitoring.  
-- **Meeting with Avantika:** Focused on how we can improve plugin sync mechanisms moving forward.  
-
-#### March 27, 2025  
-- Created a cron job to trigger SaaS plugin sync every midnight at **23:00** after testing the functionality in the staging environment. This job aims to address availability monitor inconsistencies observed in the **Adidas POC** cluster.  
-- Reviewed PR updates from Haibo related to `SPOT-2340O`.  
-
-#### March 28, 2025  
-- Finalized code updates and testing for `SPOT-24391`. Ready for review and deployment.  
-- Collaborated with the team to analyze the initial results of plugin sync from the newly created cron job.  
+#### **Key Topics**
+- Collaboration and discussions around AWS EventBridge Rules and StepFunction usage.
+- Maintenance and release updates for the SaaS analytics pipeline and monitoring of system SLI.
+- Significant teamwork involving [[Avantika]], [[Mihai]], and [[Haibo]] to address pipeline dispatching challenges.
 
 ---
 
-### Key Learnings or Insights:  
-- Investigating specific SaaS plugin sync workflows to address cluster-specific issues like **Adidas POC** highlighted inefficiencies in the monitoring setup.   
-- Cron jobs are effective but require periodic review to handle any further edge cases or failures (monitoring implementation suggested).  
-- Continued collaboration with Haibo and Avantika has been crucial in ensuring progress across parallel projects.  
+#### **Highlights from Daily Notes**
+
+### **April 25, 2025**
+- Continued work on implementing an EventBridge rule in the CT account targeting the production account to trigger the SaaS analytics pipeline.
+- Updated SLI metrics and discussed strategies for monitoring thresholds during maintenance windows.
+- Call with [[Mihai]] to explore StepFunction architecture enhancements.
 
 ---
 
+### **April 28, 2025**
+- Maintenance window in production concluded successfully. SaaS release version: `20250417`.
+- Conducted post-release analysis to ensure full functionality of SaaS analytics workflows were restored and optimized.
+- Troubleshooting minor discrepancies in StepFunction state transitions during dispatch processes with [[Haibo]].
 
-Review [[Haibo]] PR for Sync public api key from EXAConf to SSM, SPOT-24297
-Review [[Haibo]] PR, https://github.com/exasol/cos/pull/3012#top 
-Review [[Leila]] PR.
+---
 
-Update Wooga certicate.
+### **April 29, 2025**
+- Focus shifted to debugging cross-account routing errors in EventBridge configurations.
+- Collaborated with [[Avantika]] and [[Mihai]] to refine the integration testing framework for better validation of inter-account triggers.
+- Finalized a checklist for system-wide monitoring using enhanced SLI metrics and StepFunction introspection.
+
+---
+
+### **April 30, 2025**
+- Wrapped up week-long efforts on the EventBridge-Production pipeline. Integration is now streamlined.
+- Retroactive review of maintenance events highlighted significant improvements in system telemetry.
+- Brief meeting with [[Avantika]] and [[Haibo]] to document best practices for managing inter-service dispatch mechanisms.
+
+---
+
+#### **Action Items for Next Week**
+1. **EventBridge Rules**: Establish protocols for automated retries in case of cross-account errors.
+2. **SLI Metrics**: Address edge-case monitoring gaps identified during post-maintenance review.
+3. **StepFunction Optimization**: Review execution visualization and document bottleneck mitigation processes.
+
+---
+
+### **Team Mentions**
+Collaboration played a vital role in resolving challenges and optimizing solutions this week:
+- [[Avantika]]: Played a critical role in EventBridge setup and integration testing.
+- [[Mihai]]: Contributed valuable insights to enhance StepFunction architecture and execution flow.
+- [[Haibo]]: Assisted in fine-tuning dispatch error resolution processes.
+
+--- 
+
+By consolidating individual contributions and focusing on systematic improvements, excellent progress was made in managing critical workflows throughout this week. Looking forward to building on these learnings in the upcoming collaboration sprint.
