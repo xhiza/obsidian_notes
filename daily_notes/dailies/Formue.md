@@ -26,15 +26,5 @@ Worker 1 Cluster ID: ioXPnOx4RoWMIjuinPlhRg (OnDemand)
 Worker 2 Cluster ID: iuTO7OhhRW6xompZRmDpFw (PeakHours)
 Version: 826.0
 
-```
 
-The Plan on patching with the Fix (db_configure timeout)
-
-```
-You patch StandBy
-You let us know when we can switch over to use Standby
-We switch the API over to StandBy
-We will let you know when you can patch Production
-You let us know when we can switch back to Production
-We will let you know when we have switched back to Production
 ```
