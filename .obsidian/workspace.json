@@ -4,28 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aa5ff0eccebc6c56",
+        "id": "e3b508b083ee19bf",
         "type": "tabs",
         "children": [
           {
-            "id": "a72027ce375f55e1",
+            "id": "696dc4f406d5dd42",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Kanban/GOALS 2025.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "GOALS 2025"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -48,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -60,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Vocare",
+                "query": "tag:#saas-plugin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,11 +70,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 285.50390243530273
   },
   "right": {
     "id": "420989410ad683b8",
@@ -135,7 +125,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -152,13 +144,23 @@
               "icon": "lucide-list",
               "title": "Outline of 2024-10-02"
             }
+          },
+          {
+            "id": "6c5807e077a05709",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,42 +173,43 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a72027ce375f55e1",
+  "active": "b705ec8e77c329d2",
   "lastOpenFiles": [
-    "daily_notes/dailies/Adena.md",
-    "Team/Avantika.md",
-    "daily_notes/dailies/Formue.md",
-    "1-1Meeting/20250605 1-1 Edis.md",
-    "daily_notes/dailies/2025-06-05.md~",
-    "daily_notes/dailies/2025-06-06.md",
-    "daily_notes/dailies/stackname",
-    "analytics database deletion post-mortem.md",
-    "daily_notes/1749117263-QATS.md",
-    "daily_notes/dailies/2025-06-05.md",
-    "Untitled Kanban.md",
-    "Kanban/GOALS 2025.md",
-    "daily_notes/dailies/DeutschlandCard-meeting.md",
-    "project/Equinix.md",
-    "daily_notes/dailies/2025-05-15.md",
-    "daily_notes/dailies/2025-05-14.md",
-    "Kanban/My Board.md",
-    "daily_notes/2025-04-28_2025-05-04-Week18.md",
-    "daily_notes/Sprint.md",
-    "weekly_notes/2025-03-31_2025-04-06-Week14.md",
-    "daily_notes/1740045886-YWEE.md",
-    "weekly_notes/2025-03-17-2025-03-21-Week11.md",
-    "weekly_notes/2025-03-10_2025-03-16-Week11.md",
-    "weekly_notes/2025-02-24_2025-03-02-Week09.md",
-    "Untitled 1.md",
+    "Untitled 1.canvas",
+    "daily_notes/dailies/2025-02-06.md",
     "Untitled.canvas",
+    "1-1Meeting/1&1.md",
+    "1-1Meeting/1&1_Mar_11_2025.md",
+    "1-1Meeting/1&1_MeetingApril8_2025.md",
+    "1-1Meeting/20250214 - 1-1 Edis-Mihai.md",
+    "1-1Meeting/20250311 1-1 Edis.md",
+    "1-1Meeting/20250325 1-1 Edis.md",
+    "1-1Meeting/20250408 1-1 Edis.md",
+    "1-1Meeting/20250506 1-1 Edis.md",
+    "1-1Meeting/20250605 1-1 Edis.md",
+    "daily_notes/dailies/2024-05-21.md",
+    "daily_notes/dailies/2024-05-17.md",
+    "daily_notes/dailies/2024-05-16.md",
+    "daily_notes/dailies/2024-05-14.md",
+    "daily_notes/dailies/2024-05-13.md",
+    "daily_notes/dailies/2024-05-08.md",
+    "daily_notes/dailies/2024-05-07.md",
+    "daily_notes/dailies/2024-05-06.md",
+    "daily_notes/dailies/2024-05-03.md",
+    "daily_notes/dailies/2024-05-02.md",
+    "daily_notes/dailies/2024.md",
+    "daily_notes/dailies/2025-W01.md",
+    "daily_notes/dailies/2025-W07.md",
+    "daily_notes/dailies/2025-W06.md",
+    "daily_notes/dailies/2025-W05.md",
+    "daily_notes/dailies/2025-06-05.md~",
+    "daily_notes/dailies/stackname",
     "Pasted image 20250502091431.png",
     "Kanban",
-    "GOALS_2025.md",
-    "Excalidraw/Drawing 2025-05-13 16.51.51.excalidraw.md",
-    "Excalidraw/SLI.excalidraw.md",
     "Excalidraw/SLI.excalidraw.md~",
     "1&1Meeting",
     "Excalidraw",

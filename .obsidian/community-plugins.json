@@ -5,5 +5,7 @@
   "templater-obsidian",
   "obsidian-outliner",
   "better-word-count",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-git",
+  "calendar"
 ]
