@@ -11,10 +11,24 @@
             "id": "696dc4f406d5dd42",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "project/Yearly Achievements.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Yearly Achievements"
             }
           }
         ]
@@ -70,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,35 +190,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b705ec8e77c329d2",
+  "active": "696dc4f406d5dd42",
   "lastOpenFiles": [
-    "Untitled 1.canvas",
-    "daily_notes/dailies/2025-02-06.md",
+    "project/weekly.md",
+    "project/Unattended-upgrades.md",
+    "project/1&1.md",
+    "project/Backlog.md",
+    "Team/Avantika.md",
+    "Templates/project/weekly-template.md",
+    "daily_notes/dailies/DeutschlandCard-meeting.md",
+    "daily_notes/dailies/Formue.md",
+    "daily_notes/dailies/Keboola.md",
+    "daily_notes/dailies/Q1-SelfReview.md",
+    "daily_notes/dailies/quarter_review.md",
+    "daily_notes/dailies/quarter_review_new.md",
+    "daily_notes/dailies/quarter_review_v2.md",
+    "daily_notes/dailies/SLI.md",
+    "daily_notes/notes/permission_concept.md",
+    "daily_notes/notes/subscription-cancellation.md",
+    "daily_notes/how-to/onboarding-newmember.md",
+    "daily_notes/how-to/handy-functions.md",
+    "Kanban/GOALS 2025.md",
+    "Kanban/My Board.md",
+    "daily_notes/dailies/YayPay.md",
+    "daily_notes/dailies/Wooga.md",
+    "daily_notes/dailies/weekly.md",
+    "daily_notes/dailies/weeki.md",
+    "GOALS_2025.md",
+    "1-1Meeting/20250729 1-1 Edis.md",
     "Untitled.canvas",
-    "1-1Meeting/1&1.md",
-    "1-1Meeting/1&1_Mar_11_2025.md",
-    "1-1Meeting/1&1_MeetingApril8_2025.md",
-    "1-1Meeting/20250214 - 1-1 Edis-Mihai.md",
-    "1-1Meeting/20250311 1-1 Edis.md",
-    "1-1Meeting/20250325 1-1 Edis.md",
-    "1-1Meeting/20250408 1-1 Edis.md",
-    "1-1Meeting/20250506 1-1 Edis.md",
-    "1-1Meeting/20250605 1-1 Edis.md",
-    "daily_notes/dailies/2024-05-21.md",
-    "daily_notes/dailies/2024-05-17.md",
-    "daily_notes/dailies/2024-05-16.md",
-    "daily_notes/dailies/2024-05-14.md",
-    "daily_notes/dailies/2024-05-13.md",
-    "daily_notes/dailies/2024-05-08.md",
-    "daily_notes/dailies/2024-05-07.md",
-    "daily_notes/dailies/2024-05-06.md",
-    "daily_notes/dailies/2024-05-03.md",
-    "daily_notes/dailies/2024-05-02.md",
-    "daily_notes/dailies/2024.md",
-    "daily_notes/dailies/2025-W01.md",
-    "daily_notes/dailies/2025-W07.md",
-    "daily_notes/dailies/2025-W06.md",
-    "daily_notes/dailies/2025-W05.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
     "daily_notes/dailies/2025-06-05.md~",
     "daily_notes/dailies/stackname",
     "Pasted image 20250502091431.png",
