@@ -11,13 +11,37 @@
             "id": "696dc4f406d5dd42",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "kanban",
+              "state": {
+                "file": "personal_projects/aws-dash.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "aws-dash"
+            }
+          },
+          {
+            "id": "c8f40490c983dc8d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,12 +94,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 285.50390243530273
+    "width": 200
   },
   "right": {
     "id": "420989410ad683b8",
@@ -160,10 +183,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -177,35 +202,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b705ec8e77c329d2",
+  "active": "c8f40490c983dc8d",
   "lastOpenFiles": [
-    "Untitled 1.canvas",
-    "daily_notes/dailies/2025-02-06.md",
+    "daily_notes/dailies/2025-08-22.md",
+    "daily_notes/dailies/2025-08-21.md",
+    "daily_notes/dailies/2025-08-20.md",
+    "daily_notes/dailies/2025-08-19.md",
+    "daily_notes/dailies/2025-08-18.md",
+    "personal_projects/activate when selected.md",
+    "personal_projects/aws-dash.md",
+    "personal_projects/EC2.md",
+    "EC2.md",
+    "GOALS_2025.md",
+    "personal_projects",
     "Untitled.canvas",
-    "1-1Meeting/1&1.md",
-    "1-1Meeting/1&1_Mar_11_2025.md",
-    "1-1Meeting/1&1_MeetingApril8_2025.md",
-    "1-1Meeting/20250214 - 1-1 Edis-Mihai.md",
-    "1-1Meeting/20250311 1-1 Edis.md",
-    "1-1Meeting/20250325 1-1 Edis.md",
-    "1-1Meeting/20250408 1-1 Edis.md",
-    "1-1Meeting/20250506 1-1 Edis.md",
-    "1-1Meeting/20250605 1-1 Edis.md",
-    "daily_notes/dailies/2024-05-21.md",
-    "daily_notes/dailies/2024-05-17.md",
-    "daily_notes/dailies/2024-05-16.md",
-    "daily_notes/dailies/2024-05-14.md",
-    "daily_notes/dailies/2024-05-13.md",
-    "daily_notes/dailies/2024-05-08.md",
-    "daily_notes/dailies/2024-05-07.md",
-    "daily_notes/dailies/2024-05-06.md",
-    "daily_notes/dailies/2024-05-03.md",
-    "daily_notes/dailies/2024-05-02.md",
-    "daily_notes/dailies/2024.md",
-    "daily_notes/dailies/2025-W01.md",
-    "daily_notes/dailies/2025-W07.md",
-    "daily_notes/dailies/2025-W06.md",
-    "daily_notes/dailies/2025-W05.md",
+    "aws-dash.md",
+    "project/1&1.md",
+    "project/Backlog.md",
+    "project/dlhc_stepsv.md",
+    "project/Yearly Achievements.md",
+    "Excalidraw/Drawing 2025-07-29 16.14.22.excalidraw.md",
+    "Excalidraw/SLI.excalidraw.md",
+    "1-1Meeting/Edis - 20250729 - Mid-year Performance Review.md",
+    "project/weekly.md",
+    "project/Unattended-upgrades.md",
+    "Team/Avantika.md",
+    "Templates/project/weekly-template.md",
+    "daily_notes/dailies/DeutschlandCard-meeting.md",
+    "daily_notes/dailies/Formue.md",
+    "daily_notes/dailies/Keboola.md",
+    "daily_notes/dailies/Q1-SelfReview.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
     "daily_notes/dailies/2025-06-05.md~",
     "daily_notes/dailies/stackname",
     "Pasted image 20250502091431.png",
