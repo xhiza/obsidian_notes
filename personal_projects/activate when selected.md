@@ -1,0 +1,1 @@
+Activate service when selected - Enter

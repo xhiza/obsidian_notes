@@ -11,27 +11,37 @@
             "id": "696dc4f406d5dd42",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "project/Yearly Achievements.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "personal_projects/aws-dash.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
                 }
               },
-              "icon": "lucide-file",
-              "title": "Yearly Achievements"
+              "icon": "lucide-trello",
+              "title": "aws-dash"
+            }
+          },
+          {
+            "id": "c8f40490c983dc8d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.50390243530273
+    "width": 200
   },
   "right": {
     "id": "420989410ad683b8",
@@ -173,10 +183,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -190,35 +202,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "696dc4f406d5dd42",
+  "active": "c8f40490c983dc8d",
   "lastOpenFiles": [
-    "project/weekly.md",
-    "project/Unattended-upgrades.md",
+    "daily_notes/dailies/2025-08-22.md",
+    "daily_notes/dailies/2025-08-21.md",
+    "daily_notes/dailies/2025-08-20.md",
+    "daily_notes/dailies/2025-08-19.md",
+    "daily_notes/dailies/2025-08-18.md",
+    "personal_projects/activate when selected.md",
+    "personal_projects/aws-dash.md",
+    "personal_projects/EC2.md",
+    "EC2.md",
+    "GOALS_2025.md",
+    "personal_projects",
+    "Untitled.canvas",
+    "aws-dash.md",
     "project/1&1.md",
     "project/Backlog.md",
+    "project/dlhc_stepsv.md",
+    "project/Yearly Achievements.md",
+    "Excalidraw/Drawing 2025-07-29 16.14.22.excalidraw.md",
+    "Excalidraw/SLI.excalidraw.md",
+    "1-1Meeting/Edis - 20250729 - Mid-year Performance Review.md",
+    "project/weekly.md",
+    "project/Unattended-upgrades.md",
     "Team/Avantika.md",
     "Templates/project/weekly-template.md",
     "daily_notes/dailies/DeutschlandCard-meeting.md",
     "daily_notes/dailies/Formue.md",
     "daily_notes/dailies/Keboola.md",
     "daily_notes/dailies/Q1-SelfReview.md",
-    "daily_notes/dailies/quarter_review.md",
-    "daily_notes/dailies/quarter_review_new.md",
-    "daily_notes/dailies/quarter_review_v2.md",
-    "daily_notes/dailies/SLI.md",
-    "daily_notes/notes/permission_concept.md",
-    "daily_notes/notes/subscription-cancellation.md",
-    "daily_notes/how-to/onboarding-newmember.md",
-    "daily_notes/how-to/handy-functions.md",
-    "Kanban/GOALS 2025.md",
-    "Kanban/My Board.md",
-    "daily_notes/dailies/YayPay.md",
-    "daily_notes/dailies/Wooga.md",
-    "daily_notes/dailies/weekly.md",
-    "daily_notes/dailies/weeki.md",
-    "GOALS_2025.md",
-    "1-1Meeting/20250729 1-1 Edis.md",
-    "Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "daily_notes/dailies/2025-06-05.md~",
