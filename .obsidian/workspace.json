@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "2024-06-24"
             }
+          },
+          {
+            "id": "425407594bc12624",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-1Meeting/20250902 1-1 Edis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "20250902 1-1 Edis"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 261.50390243530273
   },
   "right": {
     "id": "420989410ad683b8",
@@ -174,35 +199,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0946409650b913b",
+  "active": "425407594bc12624",
   "lastOpenFiles": [
-    "daily_notes/dailies/Formue.md",
-    "daily_notes/dailies/2024-05-06.md",
-    "daily_notes/dailies/2024-10-02.md",
-    "Untitled.md",
-    "daily_notes/dailies/2024-11-12.md",
-    "daily_notes/dailies/2024-11-11.md",
-    "daily_notes/dailies/2024-11-08.md",
-    "daily_notes/dailies/2024-07-18.md",
-    "daily_notes/dailies/Adena.md",
-    "daily_notes/dailies/2024-06-21.md",
-    "[Unattended-upgrades.md",
-    "Team/Avantika.md",
-    "project/Yearly Achievements.md",
-    "project/Unattended-upgrades.md",
-    "project/German-language.md",
-    "project/Backlog.md",
-    "daily_notes/Sprint.md",
-    "daily_notes/how-to/onboarding-newmember.md",
-    "daily_notes/how-to/handy-functions.md",
-    "daily_notes/dailies/Wooga.md",
-    "daily_notes/dailies/Vocare.md",
-    "daily_notes/dailies/thoughts.md",
-    "daily_notes/dailies/Stack-Cleanup.md",
-    "daily_notes/dailies/Semikron.md",
-    "daily_notes/dailies/Keboola.md",
-    "daily_notes/dailies/L3.md",
+    "1-1Meeting/20250729 1-1 Edis.md",
+    "1-1Meeting/20250902 1-1 Edis.md",
+    "daily_notes/dailies/2025-09-02.md",
+    "1-1Meeting/Edis - 20250729 - Mid-year Performance Review.md",
+    "1-1Meeting/20250214 - 1-1 Edis-Mihai.md",
+    "1-1Meeting/1&1_MeetingApril8_2025.md",
+    "1-1Meeting/1&1.md",
+    "1-1Meeting/20250311 1-1 Edis.md",
+    "1-1Meeting/20250506 1-1 Edis.md",
+    "1-1Meeting/20250605 1-1 Edis.md",
+    "project/1&1.md",
+    "daily_notes/dailies/2025-08-22.md",
+    "daily_notes/dailies/2025-08-21.md",
+    "daily_notes/dailies/2025-08-20.md",
+    "daily_notes/dailies/2025-08-19.md",
+    "daily_notes/dailies/2025-08-18.md",
+    "personal_projects/activate when selected.md",
+    "personal_projects/aws-dash.md",
+    "personal_projects/EC2.md",
+    "EC2.md",
+    "GOALS_2025.md",
+    "personal_projects",
     "Untitled.canvas",
+    "aws-dash.md",
+    "project/Backlog.md",
+    "project/dlhc_stepsv.md",
+    "project/Yearly Achievements.md",
+    "Excalidraw/Drawing 2025-07-29 16.14.22.excalidraw.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "daily_notes/dailies/2025-06-05.md~",
+    "daily_notes/dailies/stackname",
+    "Pasted image 20250502091431.png",
+    "Kanban",
+    "Excalidraw/SLI.excalidraw.md~",
+    "1&1Meeting",
+    "Excalidraw",
     "daily_notes/dailies/deltag.go~",
     "daily_notes/dailies/deltag.go",
     "daily_notes/dailies/addtag.go"
