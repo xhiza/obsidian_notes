@@ -35,28 +35,14 @@
             "id": "425407594bc12624",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-1Meeting/20250902 1-1 Edis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "20250902 1-1 Edis"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,6 +176,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "remotely-save:Remotely Save": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -201,8 +188,8 @@
   },
   "active": "425407594bc12624",
   "lastOpenFiles": [
-    "1-1Meeting/20250729 1-1 Edis.md",
     "1-1Meeting/20250902 1-1 Edis.md",
+    "1-1Meeting/20250729 1-1 Edis.md",
     "daily_notes/dailies/2025-09-02.md",
     "1-1Meeting/Edis - 20250729 - Mid-year Performance Review.md",
     "1-1Meeting/20250214 - 1-1 Edis-Mihai.md",
