@@ -1,0 +1,6 @@
+
+AccountUUID: jntuvw96QqeVGdhjx1dmzg
+DBUUID: MPiCdBNMTG6F6YgvaSo7Qw
+
+
+1: Before starting with maintenance, stop the db and enable versioning to keep 7days of old data.
