@@ -39,6 +39,16 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.9.10"
             }
+          },
+          {
+            "id": "425407594bc12624",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
         "currentTab": 1
@@ -98,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 261.50390243530273
   },
   "right": {
     "id": "420989410ad683b8",
@@ -202,6 +212,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
+  "active": "425407594bc12624",
+  "lastOpenFiles": [
+    "1-1Meeting/20250902 1-1 Edis.md",
+    "1-1Meeting/20250729 1-1 Edis.md",
+    "daily_notes/dailies/2025-09-02.md",
+    "1-1Meeting/Edis - 20250729 - Mid-year Performance Review.md",
+    "1-1Meeting/20250214 - 1-1 Edis-Mihai.md",
+    "1-1Meeting/1&1_MeetingApril8_2025.md",
+    "1-1Meeting/1&1.md",
+    "1-1Meeting/20250311 1-1 Edis.md",
+    "1-1Meeting/20250506 1-1 Edis.md",
+    "1-1Meeting/20250605 1-1 Edis.md",
+    "project/1&1.md",
   "active": "c8f40490c983dc8d",
   "lastOpenFiles": [
     "daily_notes/dailies/2025-08-22.md",
