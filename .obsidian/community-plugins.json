@@ -1,4 +1,11 @@
 [
   "dataview",
-  "remotely-save"
+  "remotely-save",
+  "obsidian-excalidraw-plugin",
+  "templater-obsidian",
+  "obsidian-outliner",
+  "better-word-count",
+  "obsidian-kanban",
+  "obsidian-git",
+  "calendar"
 ]
