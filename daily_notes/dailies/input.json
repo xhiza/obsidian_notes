@@ -1,0 +1,28 @@
+{
+    "InventoryConfiguration": {
+        "Destination": {
+            "S3BucketDestination": {
+                "AccountId": "013892436430",
+                "Bucket": "arn:aws:s3:::psjwxelnnvgt",
+                "Format": "CSV"
+            }
+        },
+        "IsEnabled": true,
+        "Filter": {
+            "Prefix": "volumes/"
+        },
+        "Id": "inventory_adenadb",
+        "IncludedObjectVersions": "Current",
+        "OptionalFields": [
+            "Size",
+            "LastModifiedDate",
+            "StorageClass",
+            "ETag",
+            "ChecksumAlgorithm"
+        ],
+        "Schedule": {
+            "Frequency": "Daily"
+        }
+    }
+}
+
