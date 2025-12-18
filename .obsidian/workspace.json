@@ -16,45 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "70b45311156aecdd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
-            }
-          },
-          {
-            "id": "1a9f05d6d74c11a5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
-            "id": "68722b4ab01f5fe1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-12-04 11.21.18.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-12-04 11.21.18.excalidraw"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,9 +187,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68722b4ab01f5fe1",
+  "active": "d72522b805e18c17",
   "lastOpenFiles": [
+    "2025-12-17.md",
     "Excalidraw/Drawing 2025-12-04 11.21.18.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-09 10.56.32.excalidraw.md",
     "1-1Meeting/20251021 1-1 Edis.md",
     "1-1Meeting/20250325 1-1 Edis.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
