@@ -1,5 +1,3 @@
-To create a detailed self-review note for the quarter, including tasks and customer involvement with an additional column for specific implementations like VPC peering and DirectConnect, here’s a consolidated report based on the provided notes:
-
 ---
 
 ### **Self-Review Notes for Q2 2025**

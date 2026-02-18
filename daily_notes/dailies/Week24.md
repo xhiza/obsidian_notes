@@ -1,5 +1,3 @@
-Here’s a summary of the notes you took for June 10, 2025:
-
 ---
 
 ### **Summary of Notes (June 10, 2025):**

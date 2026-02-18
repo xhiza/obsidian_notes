@@ -1,5 +1,3 @@
-Here’s a compiled weekly note based on the daily notes for May 6 to May 9, 2025:
-
 ---
 
 ## Weekly Notes: May 5 - May 9, 2025
