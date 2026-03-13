@@ -2,7 +2,7 @@
 id: VENI
 aliases: []
 tags:
-  - VENI
+  - Veni
 ---
 
 

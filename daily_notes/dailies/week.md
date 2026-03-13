@@ -1,5 +1,3 @@
-Here’s a compiled **Weekly Notes** based on the content provided from April 25 to April 30:
-
 ---
 
 ### **Weekly Notes: April 24 – April 30, 2025**

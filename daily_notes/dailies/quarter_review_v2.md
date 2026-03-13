@@ -1,8 +1,3 @@
-### Detailed Note for Your Q2 Self-Review
-
-#### Activity Summary
-Below is a detailed compilation of your key contributions grouped by customer tasks and general team interactions. For your self-review, this serves as a comprehensive guide to reflect, analyze, and provide context.
-
 ---
 
 ### 1. **Customer-Specific Tasks**

@@ -2,7 +2,7 @@
 id: BlueYonder
 aliases: []
 tags:
-  - "- BlueYonder"
+  - BlueYonder
 ---
 
 AccountUUID: acc_vXK19HzPQsaOP03cQ-tDUw

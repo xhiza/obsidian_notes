@@ -1,9 +1,3 @@
-**Weekly Report: June 19, 2025 - June 26, 2025**
-
-### Summary of Activities:
-
-This week involved multiple efforts across L3 tickets, troubleshooting customer issues, cost optimization initiatives, PR reviews, and infrastructure fixes. Here's a breakdown of key actions and accomplishments:
-
 ---
 
 ### **Customer Support and Troubleshooting:**  
