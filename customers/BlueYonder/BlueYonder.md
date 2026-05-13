@@ -1,9 +1,12 @@
 ---
 id: BlueYonder
-aliases: []
+aliases:
+  - Blue Yonder
 tags:
-  - BlueYonder
+  - customer/BlueYonder
 ---
+
+# BlueYonder
 
 AccountUUID: acc_vXK19HzPQsaOP03cQ-tDUw
 DBUUID: jTRl1og8RIGwE3SGMrA-Yw

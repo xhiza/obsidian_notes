@@ -2,7 +2,9 @@
 id: Keboola
 aliases: []
 tags:
-  - Keboola
+  - customer/Keboola
 ---
+
+# Keboola
 
 AccountUUID: oAVqZoHnSRO5rAjahTgAkg
