@@ -22,3 +22,8 @@ Version: saas-prod-45
 
 DBUUID: NPZZqSKkTAOvf6GtRGTuQA
 Version: exasol-8.18.1
+
+## Customers
+#customer/Adena
+<!-- Tag customers: #customer/Adena -->
+

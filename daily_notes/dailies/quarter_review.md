@@ -107,3 +107,8 @@
 ---
 
 This consolidated document serves as an overview for your self-review. It highlights your impactful contributions across technical implementations, collaboration, customer engagement, and personal growth initiatives during the quarter.
+
+## Customers
+#customer/BlueYonder #customer/Formue #customer/Adidas #customer/Wooga #customer/Vocare #customer/DeutschlandCard #customer/Semikron
+<!-- Tag customers: #customer/BlueYonder #customer/Formue #customer/Adidas #customer/Wooga #customer/Vocare #customer/DeutschlandCard #customer/Semikron -->
+
